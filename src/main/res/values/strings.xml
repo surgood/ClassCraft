@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IntentCraft</string>
+    <string name="secondTitle">Внесені дані</string>
+    <string name="edit1">Name</string>
+    <string name="edit2">Surname</string>
+    <string name="edit3">Age</string>
+    <string name="hello">Type in your info below</string>
+    <string name="add">Add data</string>
+    <string name="back">To main screen</string>
+    <string name="output">Saved data:</string>
+    <string name="empty">_</string>
+    <string name="see">See data</string>
+    <string name="labelFirst">labelFirst</string>
+    <string name="myInfo">myInfo</string>
+    <string name="RecView">niceLook</string>
+
+</resources>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/labelFirst"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/output"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="#072b63"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="#072b63"
+            android:layout_marginBottom="8dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/edit3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empty"
+            android:layout_gravity="center_horizontal"
+            android:textSize="24sp"
+            android:textColor="#072b63"
+            android:layout_marginBottom="8dp"
+            />
+        <Button
+            android:id="@+id/BtnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_marginTop="180dp"
+            android:onClick="onBtnBackClick"
+            android:layout_gravity="center_horizontal"
+            />
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/myInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+             />
+        <EditText
+            android:id="@+id/ed1"
+            android:hint="@string/edit1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="15"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/ed2"
+            android:hint="@string/edit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="15"
+            android:layout_gravity="center_horizontal"
+            />
+        <EditText
+            android:id="@+id/ed3"
+            android:hint="@string/edit3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="2"
+            android:layout_gravity="center_horizontal"
+            />
+        <Button
+            android:id="@+id/BtnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:layout_marginTop="80dp"
+            android:visibility="visible"
+            android:onClick="onBtnAddClick"
+            android:layout_gravity="center_horizontal"
+            />
+    <Button
+        android:id="@+id/BtnSee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/see"
+        android:layout_marginTop="8dp"
+        android:onClick="onBtnSeeClick"
+        android:layout_gravity="center_horizontal"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>
+
